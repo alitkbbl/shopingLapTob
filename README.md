@@ -8,8 +8,8 @@ Table of Contents
     Installation
     Usage
     API Endpoints
-    Screenshots
-    License
+
+
 
 Features
 
@@ -28,9 +28,7 @@ Technologies
         Node.js
         Express.js
     Database:
-        (Include the database you're using, e.g., MongoDB, MySQL)
-    Other Tools:
-        (e.g., JWT for authentication, bcrypt for password hashing)
+         MongoDB
 
 Installation
 
@@ -50,24 +48,13 @@ npm install
 cd ../frontend
 npm install
 
-Set up environment variables: Create a .env file in the root of the backend and frontend directories. Include the following variables:
-
-Backend .env file:
-
-PORT=5000
-DATABASE_URL=your_database_url
-JWT_SECRET=your_jwt_secret
-
-Frontend .env file:
-
-NEXT_PUBLIC_API_URL=your_backend_url
 
 Run the application:
 
-    Backend:
+Backend:
 
-cd backend
-npm run dev
+    cd backend
+    npm run dev
 
 Frontend:
 
@@ -82,8 +69,6 @@ Once the project is running:
 
     Access the Frontend at http://localhost:3000
 
-    Access the Admin Panel (e.g., at http://localhost:3000/admin after login)
-
     Admin actions:
         Add new laptops
         Edit or delete existing laptops
@@ -94,20 +79,3 @@ Once the project is running:
         Add laptops to the shopping cart
         Proceed with the purchase
 
-API Endpoints
-
-Here are some important API routes used in the project:
-
-    User Authentication:
-        POST /api/auth/register - Register a new user
-        POST /api/auth/login - User login
-
-    Admin:
-        POST /api/laptops - Add a new laptop (Admin only)
-        PUT /api/laptops/:id - Edit laptop details (Admin only)
-        DELETE /api/laptops/:id - Delete a laptop (Admin only)
-
-    User:
-        GET /api/laptops - Get a list of laptops
-        POST /api/cart - Add a laptop to the cart
-        GET /api/cart - View shopping cart
