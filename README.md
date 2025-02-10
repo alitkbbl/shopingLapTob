@@ -2,71 +2,34 @@ Laptop Shopping Project
 Welcome to the Laptop Shopping Project! This is a full-stack web application designed for purchasing laptops. The front-end is built with Next.jsand React, and the back-end uses Express and Node.js.The application includes an admin panel for managing products and a user interface for customers to browse and purchase laptops.
 
 Table of Contents
-Prerequisites
+About the Project
 
-Installation and Setup
-
-Clone the Repository
-
-Install Dependencies
-
-Start the Servers
-
-Environment Variables
+Tech Stack
 
 Features
 
-Folder Structure
-
-Contributing
-
-License
+Getting Started
 
 Prerequisites
-Before you begin, ensure you have the following installed:
 
-Node.js(version 14 or higher)
+Installation
 
-NPM
+Running the App
 
-Git
+Environment Variables
 
-Installation and Setup
-1. Clone the Repository
-First, clone the repository:
+Folder Structure
 
-sh
-git clone https://github.com/username/laptop-shopping.git
-cd laptop-shopping
-2. Install Dependencies
-Navigate to the respective directories and install the dependencies.
 
-Front-end
-sh
-cd frontend
-npm install
-Back-end
-sh
-cd backend
-npm install
-3. Start the Servers
-To start both the front-end and back-end servers using NPM:
+Contact
 
-sh
-cd frontend
-npm run dev
-In a separate terminal window:
+About the Project
+This project is a full-stack laptop shopping site developed using Next.jsand React for the front-end and Express and Node.jsfor the back-end. The site features an admin panel where administrators can add and edit laptops, and regular users can log in and add laptops to their shopping carts.
 
-sh
-cd backend
-npm run dev
-4. Environment Variables
-Create .env files in the frontend and backend directories and set the necessary environment variables.
+Tech Stack
+Front-end: Next.js, React
 
-Example .env file for Back-end
-plaintext
-DB_HOST=localhost
-5000=root
+Back-end: Express, Node.js
 
 Features
 Admin Panel: Allows administrators to add, edit, and delete laptops.
@@ -77,20 +40,61 @@ Shopping Cart: Users can add laptops to their shopping cart and proceed to check
 
 Responsive Design: The application is fully responsive and works on all devices.
 
+Getting Started
+Prerequisites
+Before you begin, ensure you have the following installed:
+
+Node.js(version 14 or higher)
+
+NPM
+
+Git
+
+Installation
+Clone the Repository
+
+First, clone the repository:
+
+sh
+git clone https://github.com/username/laptop-shopping.git
+cd laptop-shopping
+Install Dependencies
+
+Navigate to the respective directories and install the dependencies.
+
+Front-end
+sh
+cd frontend
+npm install
+Back-end
+sh
+cd backend
+npm install
+Running the App
+To start both the front-end and back-end servers using NPM:
+
+Front-end
+sh
+cd frontend
+npm run dev
+Back-end
+In a separate terminal window:
+
+sh
+cd backend
+npm run dev
+The front-end server will be running on http://localhost:3000 and the back-end server on http://localhost:5000.
+
+Environment Variables
+Create .env files in the frontend and backend directories and set the necessary environment variables.
+
+Example .env file for Back-end
+plaintext
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=yourpassword
+JWT_SECRET=yourjwtsecret
 Folder Structure
 frontend: Contains the front-end code (Next.js and React).
 
 backend: Contains the back-end code (Express and Node.js).
-
-Contributing
-To contribute to this project, please follow these steps:
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature/YourFeatureName).
-
-Make your changes and commit them (git commit -m 'Add some feature').
-
-Push to the branch (git push origin feature/YourFeatureName).
-
-Open a pull request.
