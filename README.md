@@ -21,40 +21,24 @@ Front-end
 sh
 cd frontend
 npm install
-# or
-yarn install
+
 Back-end
 sh
 cd backend
 npm install
-# or
-yarn install
-3. Start the Servers
+
 Front-end
-To start the front-end development server:
-
 sh
-cd frontend
 npm run dev
-# or
-yarn dev
 Back-end
-To start the back-end server:
-
 sh
-cd backend
-npm start
-# or
-yarn start
-4. Environment Variables
-Create .env files in the frontend and backend directories and set the necessary environment variables.
+npm run dev
 
-Example .env file for Back-end
+
 plaintext
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=yourpassword
-JWT_SECRET=yourjwtsecret
+5000=localhost
+
+
 Features
 Admin Panel: Allows administrators to add and edit laptops.
 
