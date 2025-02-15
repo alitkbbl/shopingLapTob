@@ -1,8 +1,15 @@
+import Footer from "@/components/footer/Footer";
+import HomeScrean from "@/components/HomeScream/HomeScrean";
+import Header from "@/components/Navbar/Header";
+
+
 
 export default function Home() {
   return (
-    <div>
-      <p className="text-4xl">hellow fronted</p>
+    <div >
+      <Header />
+      <HomeScrean />
+      <Footer />
     </div>
   );
 }
