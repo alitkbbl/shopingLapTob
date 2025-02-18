@@ -8,7 +8,7 @@ export default function BannerNew() {
     <div className='bg-white'>
         <br />
         <Link href={"#"}>
-        <div className='mx-6 rounded-2xl'>
+        <div className='mx-6 rounded-2xl hover:scale-105'>
             <Image src={bannerNew} alt='banner' className='rounded-2xl' />
         </div>
         </Link>

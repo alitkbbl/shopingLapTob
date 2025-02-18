@@ -10,7 +10,7 @@ export default function CircleItemHomeScrean() {
 
  
   return (
-    <div className="flex justify-center mt-7 bg-slate-200"> 
+    <div className="flex justify-center mt-7"> 
         <div className="mx-5 ">
           <Link href={"/"} className="">
               <Image src={MacBanner} alt="MAc" width={190} height={190} className="rounded-2xl mb-2 "/>

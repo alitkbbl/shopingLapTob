@@ -1,11 +1,11 @@
 import React from 'react'
 import BanerHomeScrean from './BanerHomeScrean'
 import CircleItemHomeScrean from './CircleItemHomeScrean'
-import ShowLapTobHomeScrean from './ShowLapTobHomeScrean'
+import ShowLapTobHomeScrean from './LaptopList'
 import PriceFilter from './SortedLapHomeScrean'
 import PriceFilterLeft from './SortedLapHomeScreanLeft'
 import BannerNew from './BannerNew'
- 
+
 
 export default function HomeScrean() {
   return (

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://Z%3A/myReact/shopingLapTob/frontend/src/app/%5BlaptobId%5D/page.tsx"],"sourcesContent":["\"use client\"\r\nimport { useRouter } from 'next/router'\r\n\r\nconst Post = () => {\r\n  const router = useRouter()\r\n  const { id } = router.query\r\n\r\n  return (\r\n    <div>\r\n      <h1>Post: {id}</h1>\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default Post\r\n"],"names":[],"mappings":";;;;AACA;;;AADA;;AAGA,MAAM,OAAO;;IACX,MAAM,SAAS,CAAA,GAAA,iIAAA,CAAA,YAAS,AAAD;IACvB,MAAM,EAAE,EAAE,EAAE,GAAG,OAAO,KAAK;IAE3B,qBACE,6LAAC;kBACC,cAAA,6LAAC;;gBAAG;gBAAO;;;;;;;;;;;;AAGjB;GATM;;QACW,iIAAA,CAAA,YAAS;;;KADpB;uCAWS"}},
+    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -20,7 +20,7 @@ const PriceFilterLeft = () => {
         <Link href="/" className="py-7 px-10 bg-gray-200 border-4 border-gray-200 rounded-xl text-center block">
           برنامه نویسی
         </Link>
-        <Link href="/" className="py-7 px-10 bg-gray-200 border-4 border-gray-200 text-center block">
+        <Link href="/" className="py-7 px-10 bg-gray-200 border-4 border-gray-200 rounded-xl text-center block">
           باتری
         </Link>
       </div>
