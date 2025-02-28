@@ -1,6 +1,6 @@
 import { Schema, model, Document } from 'mongoose';
 
-interface ILaptop {
+export interface ILaptop {
   name: string;
   brand: string;
   model: string;

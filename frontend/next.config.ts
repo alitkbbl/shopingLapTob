@@ -1,9 +1,10 @@
-// next.config.ts
+// next.config.js
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  reactStrictMode: true,
   images: {
-    domains: ['www.technolife.com','www.technolife.ir'], // اضافه کردن hostname
+    domains: ['www.technolife.com', 'www.technolife.ir'],
   },
 };
 

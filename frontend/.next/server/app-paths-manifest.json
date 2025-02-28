@@ -1,6 +1,5 @@
 {
   "/page": "app/page.js",
   "/Laptobs/page": "app/Laptobs/page.js",
-  "/Laptobs/[id]/page": "app/Laptobs/[id]/page.js",
-  "/AddLapTob/page": "app/AddLapTob/page.js"
+  "/Laptobs/[id]/page": "app/Laptobs/[id]/page.js"
 }

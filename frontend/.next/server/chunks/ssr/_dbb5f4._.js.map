@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://Z%3A/myReact/shopingLapTob/frontend/src/app/LL/page.tsx"],"sourcesContent":["\"use client\"\r\n\r\nimport { useEffect } from 'react'\r\n\r\nconst LL = () => {\r\n\r\n\r\n    useEffect(() => {\r\n        // شرطی که نیاز دارید، مثلاً بررسی لاگین بودن کاربر\r\n        const condition = false\r\n\r\n        if (condition) {\r\n            \r\n        }\r\n    }, [router])\r\n\r\n    return (\r\n        <div>\r\n            <p>Redirecting...</p>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default LL\r\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIA,MAAM,KAAK;IAGP,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACN,mDAAmD;QACnD,MAAM,YAAY;QAElB,IAAI,WAAW,CAEf;IACJ,GAAG;QAAC;KAAO;IAEX,qBACI,8OAAC;kBACG,cAAA,8OAAC;sBAAE;;;;;;;;;;;AAGf;uCAEe"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 48, "column": 0}, "map": {"version":3,"sources":["file://Z%3A/myReact/shopingLapTob/frontend/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-ssr'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,0HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

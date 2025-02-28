@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://Z%3A/myReact/shopingLapTob/frontend/src/app/LL/page.tsx"],"sourcesContent":["\"use client\"\r\nimport { useRouter } from 'next/router'\r\nimport { useEffect } from 'react'\r\n\r\nconst LL = () => {\r\n    const router = useRouter()\r\n\r\n    useEffect(() => {\r\n        // شرطی که نیاز دارید، مثلاً بررسی لاگین بودن کاربر\r\n        const condition = false\r\n\r\n        if (condition) {\r\n            \r\n        }\r\n    }, [router])\r\n\r\n    return (\r\n        <div>\r\n            <p>Redirecting...</p>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default LL\r\n"],"names":[],"mappings":";;;;AACA;AACA;;;AAFA;;;AAIA,MAAM,KAAK;;IACP,MAAM,SAAS,CAAA,GAAA,iIAAA,CAAA,YAAS,AAAD;IAEvB,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;wBAAE;YACN,mDAAmD;YACnD,MAAM,YAAY;YAElB,IAAI,WAAW,CAEf;QACJ;uBAAG;QAAC;KAAO;IAEX,qBACI,6LAAC;kBACG,cAAA,6LAAC;sBAAE;;;;;;;;;;;AAGf;GAjBM;;QACa,iIAAA,CAAA,YAAS;;;KADtB;uCAmBS"}},
+    {"offset": {"line": 56, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
