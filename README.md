@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # shopingLapTob
 =======
 Laptop Shop - Full Stack Web Application
@@ -82,4 +81,3 @@ Once the project is running:
         Add laptops to the shopping cart
         Proceed with the purchase
 
->>>>>>> aa80f8397a4b2baa4bd9fc81002f7c9590432825
