@@ -1,6 +1,5 @@
 # LaptopShop 
 
-![LaptopShop Banner](https://via.placeholder.com/1200x400?text=LaptopShop+E-Commerce)
 
 A full-featured online laptop store with user/admin roles, inventory management, and secure checkout.
 
@@ -37,7 +36,7 @@ A full-featured online laptop store with user/admin roles, inventory management,
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/laptop-shop.git
+git clone https://github.com/alitkbbl/laptop-shop.git
 cd laptop-shop
 
 # Install backend dependencies
